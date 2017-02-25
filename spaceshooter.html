@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Space Shooter</title>
+
+	<style type="text/css">
+
+		#mycanvas{
+			border: 5px solid red;
+			background : url("Images/bg2.png");
+			-webkit-animation: animatedBackground 20s linear infinite;
+			background-repeat: repeat-y;
+		}
+
+		@-webkit-keyframes animatedBackground {
+			from { background-position: 0 0; }
+			to { background-position: 0 1000px; }
+		}
+
+	</style>
+</head>
+	<body>
+
+		<canvas id="mycanvas" width="1200" height="650"></canvas>
+
+		<script type="text/javascript" src="shooter.js"></script>
+
+
+	</body>
+</html>
